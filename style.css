@@ -1,0 +1,142 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+.services h2{
+margin-left: 90px;
+font-size: xx-large;font-weight: bolder;font-weight: 900;
+
+}
+.my-icon{
+    color: azure;
+    height: 30px;
+    
+
+
+}
+
+.header-text{
+    font-size: 5rem;
+    animation: zoom-in-zoom-out infinite 2s;
+ }
+@keyframes zoom-in-zoom-out {
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.2,1.2);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
+.hover-box:hover{
+    background-color: black;
+    color: white;
+}
+.slide{
+    margin-right:20px;
+    flex-direction: row;
+    justify-content: space-between;
+    display: inline-block;  
+
+}
+.scroll{
+    flex-wrap: nowrap;
+    display: flex; margin:5px; overflow-x: auto;
+}
+/* section .contact{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    background: #101010;
+    height: 100%;
+    width: 100%;
+    
+    color: white;
+} */
+.contact{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.formm{
+    
+width: 400px;
+    border: 2px solid white;
+    background-color:black;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid white;
+    color: white;
+}
+/* .heading{
+    background-color: black;
+    
+    height:30rem;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    flex-wrap: wrap;
+} */
+/* .column-1{    
+    margin: 5rem;
+}
+.column-1{
+    font-size: 5rem;
+   animation: rotation infinite 3s linear;
+}
+@keyframes rotation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);   
+    }
+    
+} */
+
+/* .column-1{
+    font-size: 5rem;
+   animation: zoom-in-zoom-out infinite 2s;
+}
+@keyframes zoom-in-zoom-out {
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.2,1.2);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+} */
+
+/* .img{
+   width: 300px;
+   height: 300px;
+   border: 2px solid whitesmoke;
+   border-radius: 5px;
+   margin: 9rem;
+   margin-right: 20px;
+
+}
+.my-icon{
+    font-size: 50px;
+    
+    color:white;
+}
+.abot{
+
+} */
